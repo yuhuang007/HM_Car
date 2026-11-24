@@ -1,0 +1,28 @@
+# Local vendor downloads and duplicate toolchains
+/huanjing/
+/资料/
+/My_Study/DevTools_Hi3861V100_v1.0/
+
+# Generated firmware, build products and local IDE state
+/.vs/
+**/.deveco/
+**/.vscode/
+**/src/out/
+**/src/ohos_config.json
+**/sdk_liteos/output/
+**/sdk_liteos/build/build_tmp/
+**/sdk_liteos/ohos/libs/
+.sconsign.dblite
+__pycache__/
+*.pyc
+/Go_Car_V1/Down_system/MDK-ARM/FS-Hi3861-Motor-Driver/
+*.uvguix.*
+*.uvoptx
+build_log.txt
+startup_stm32g030xx.lst
+
+# Private workstation configuration
+.env
+.env.local
+.DS_Store
+Thumbs.db

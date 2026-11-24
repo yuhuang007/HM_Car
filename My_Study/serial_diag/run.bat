@@ -1,0 +1,11 @@
+@echo off
+echo ========================================
+echo   Hi3861 ??????
+echo ========================================
+echo.
+echo  ???:
+echo    1. Hi3861 USB??????
+echo    2. ????????(?SSCOM)
+echo.
+python "%~dp0serial_diag.py"
+pause

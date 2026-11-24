@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="385" viewBox="0 0 1000 385" role="img" aria-labelledby="title desc">
+  <title id="title">HM Car | Embedded Systems Lab</title>
+  <desc id="desc">PCB-style cover with a top-down schematic of the two-controller line-following car.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#29454a" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1000" height="385" rx="8" fill="#10262c"/>
+  <rect x="1" y="1" width="998" height="383" rx="7" fill="url(#grid)" stroke="#426164"/>
+  <path d="M0 313H104L141 350H405M0 325H85L102 342H133M370 55H462L484 77H555M920 96h80M932 299h68" fill="none" stroke="#42676a" stroke-width="2"/>
+  <g fill="#10262c" stroke="#6e9b95" stroke-width="2">
+    <circle cx="141" cy="350" r="4"/><circle cx="405" cy="350" r="4"/><circle cx="370" cy="55" r="4"/><circle cx="555" cy="77" r="4"/>
+  </g>
+  <g font-family="Consolas, monospace">
+    <text x="52" y="78" font-size="17" fill="#7ce5cf">EMBEDDED SYSTEMS LAB</text>
+    <text x="50" y="162" font-size="76" font-weight="700" fill="#f2f6ed">HM CAR</text>
+    <text x="54" y="205" font-size="20" fill="#b8d5d1">DUAL-MCU LINE FOLLOWER</text>
+    <path d="M54 232H416" stroke="#46686a"/>
+    <text x="54" y="266" font-size="17" fill="#ffcd75">08</text><text x="87" y="266" font-size="15" fill="#ddebe4">SENSORS</text>
+    <text x="199" y="266" font-size="17" fill="#ffcd75">02</text><text x="232" y="266" font-size="15" fill="#ddebe4">MCUs</text>
+    <text x="313" y="266" font-size="17" fill="#ffcd75">02</text><text x="346" y="266" font-size="15" fill="#ddebe4">WHEELS</text>
+    <text x="790" y="351" font-size="13" fill="#b8d5d1">TOP VIEW / SCHEMATIC</text>
+  </g>
+  <path d="M536 297h70v-54h53M825 129h75V89h65" fill="none" stroke="#75c4b6" stroke-width="2" stroke-dasharray="6 7"/>
+  <path d="M592 326H646L693 279H752L806 225H872V63H917" fill="none" stroke="#294e52" stroke-width="14"/>
+  <path d="M645 102l37-37h115l37 37v181l-31 31H675l-30-31z" fill="#18544f" stroke="#8ee9d3" stroke-width="2"/>
+  <path d="M664 121h20v40h18m111 12h-25v45h-21m-95 61h20v-32h15m73-159v13h21" fill="none" stroke="#77be9a" stroke-width="2"/>
+  <g fill="#efc06f">
+    <circle cx="671" cy="108" r="4"/><circle cx="809" cy="108" r="4"/><circle cx="671" cy="281" r="4"/><circle cx="809" cy="281" r="4"/>
+  </g>
+  <g fill="#122429" stroke="#6d8e8e" stroke-width="2">
+    <rect x="609" y="210" width="35" height="77" rx="8"/><rect x="835" y="210" width="35" height="77" rx="8"/>
+  </g>
+  <path d="M614 226h25m-25 12h25m-25 12h25m-25 12h25m-25 12h25m201-48h25m-25 12h25m-25 12h25m-25 12h25m-25 12h25" stroke="#678589" stroke-width="2"/>
+  <rect x="674" y="39" width="132" height="27" rx="4" fill="#19363d" stroke="#7f9d98"/>
+  <path d="M686 52h108" stroke="#f2bb60" stroke-width="8" stroke-linecap="round" stroke-dasharray="0 15"/>
+  <g font-family="Consolas, monospace" text-anchor="middle">
+    <rect x="694" y="112" width="91" height="51" rx="5" fill="#10262c" stroke="#84dfcd"/>
+    <text x="739.5" y="142" font-size="15" fill="#f2f6ed">Hi3861</text>
+    <path d="M739 164v40" stroke="#ffcd75" stroke-width="2" stroke-dasharray="4 4"/>
+    <rect x="687" y="204" width="105" height="58" rx="5" fill="#10262c" stroke="#84dfcd"/>
+    <text x="739.5" y="237" font-size="14" fill="#f2f6ed">STM32G030</text>
+  </g>
+</svg>
